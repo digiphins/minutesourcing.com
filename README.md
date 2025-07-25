@@ -38,6 +38,15 @@ A beautiful, modern, and responsive website for a manpower agency specializing i
 2. The website is ready to use immediately
 3. Customize the content, colors, and contact information as needed
 
+## 📁 Files Included
+
+- `index.html` - Main website structure
+- `styles.css` - Beautiful styling and responsive design
+- `script.js` - Interactive functionality
+- `logo.svg` - Professional company logo
+- `favicon.svg` - Browser favicon/tab icon
+- `README.md` - Documentation and customization guide
+
 ## Customization
 
 ### Contact Information
