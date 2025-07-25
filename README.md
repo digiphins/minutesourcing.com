@@ -1,4 +1,4 @@
-# MinuteSourcing - Manpower Agency Website
+# Minute Sourcing - Manpower Agency Website
 
 A beautiful, modern, and responsive website for a manpower agency specializing in both blue-collar and white-collar recruitment services.
 
@@ -41,13 +41,13 @@ A beautiful, modern, and responsive website for a manpower agency specializing i
 ## Customization
 
 ### Contact Information
-Update the contact details in the contact section:
-- Phone: Currently set to +1 (555) 123-4567
-- Email: Currently set to info@minutesourcing.com
-- Address: Currently set to 123 Business District, Corporate City, CC 12345
+Contact details have been updated with your actual information:
+- Phone: +91 8197299706
+- Email: info@minutesourcing.com
+- Address: No 171/4AB, "Shastry Bhavana", 2nd Floor, 3rd Main Road, P. J. Extension, Davangere - 577002
 
 ### Company Branding
-- Update the company name "MinuteSourcing" throughout the HTML
+- Company name "Minute Sourcing" has been updated throughout the website
 - Modify the color scheme by updating the CSS gradient values
 - Replace placeholder statistics in the About section
 
