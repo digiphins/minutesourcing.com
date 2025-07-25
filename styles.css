@@ -77,6 +77,16 @@ body {
     padding: 0 20px;
 }
 
+.nav-logo .logo-img {
+    height: 45px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo .logo-img:hover {
+    transform: scale(1.05);
+}
+
 .nav-logo h2 {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
@@ -591,6 +601,10 @@ body {
     .features-grid {
         grid-template-columns: 1fr;
     }
+
+    .nav-logo .logo-img {
+        height: 40px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -618,5 +632,9 @@ body {
     .service-card,
     .contact-form {
         padding: 1.5rem;
+    }
+
+    .nav-logo .logo-img {
+        height: 35px;
     }
 }

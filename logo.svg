@@ -1,0 +1,59 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5568;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <g transform="translate(5, 10)">
+    <!-- Outer Circle -->
+    <circle cx="20" cy="20" r="18" fill="url(#logoGradient)" stroke="#ffffff" stroke-width="1"/>
+    
+    <!-- People Icons -->
+    <g fill="#ffffff">
+      <!-- Person 1 -->
+      <circle cx="15" cy="15" r="3"/>
+      <path d="M 10 26 Q 15 22 20 26 L 20 30 L 10 30 Z"/>
+      
+      <!-- Person 2 -->
+      <circle cx="25" cy="15" r="3"/>
+      <path d="M 20 26 Q 25 22 30 26 L 30 30 L 20 30 Z"/>
+    </g>
+    
+    <!-- Connection Lines -->
+    <line x1="15" y1="18" x2="25" y2="18" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    
+    <!-- Clock Element (representing "Minute") -->
+    <g transform="translate(28, 8)">
+      <circle cx="5" cy="5" r="4" fill="none" stroke="#ffffff" stroke-width="1"/>
+      <line x1="5" y1="5" x2="5" y2="2" stroke="#ffffff" stroke-width="1"/>
+      <line x1="5" y1="5" x2="7" y2="5" stroke="#ffffff" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Company Text -->
+  <text x="50" y="25" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="url(#textGradient)">
+    Minute
+  </text>
+  <text x="50" y="42" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="url(#textGradient)">
+    Sourcing
+  </text>
+  
+  <!-- Tagline -->
+  <text x="130" y="20" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#667eea">
+    MANPOWER
+  </text>
+  <text x="130" y="30" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#667eea">
+    SOLUTIONS
+  </text>
+  
+  <!-- Decorative Elements -->
+  <rect x="125" y="22" width="2" height="6" fill="url(#logoGradient)" rx="1"/>
+  <rect x="175" y="35" width="20" height="2" fill="url(#logoGradient)" rx="1" opacity="0.6"/>
+</svg>
